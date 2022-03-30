@@ -1,0 +1,17 @@
+# hypotenuse Rev 0 start 03/29/2022
+## Start Bryan Hodgins Here
+
+import math
+
+def hypotenuse(**args):
+    return math.sqrt(args['a']**2 + args['b']**2)
+
+def main():
+    print(round(hypotenuse(a = 10, b = 18),4))
+
+if __name__ == "__main__":
+    main()
+
+# hypotenuse Rev  End 03/29/2022
+## End Bryan Hodgins Here
+# no client information provided

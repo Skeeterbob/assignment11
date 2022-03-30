@@ -1,0 +1,11 @@
+# formula Rev 0 start 3/29/2022
+## Begin Bryan Hodgins Here
+
+def formula(**args):
+    return (((args['a']+args['b'])**3-args['c'])/(args['d']+(args['e']-args['f'])*(args['g']-args['h'])**-.04))**(1/2)
+
+def main():
+    print(formula(a=4.172,b=9.131844,c=18,d=-3.5,e=11.2,f=4.6,g=7,h=2.91683))
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,15 @@
+# Rev 0 Circle Area Start 03/29/2022
+##  Bryan Hodgins EG0547 Start Here
+
+def circle_area(**args):
+    return args['radius'] * args['radius'] * 3.14159
+
+def main():
+    print(circle_area(radius = 5))
+
+if __name__ == "__main__":
+    main()
+
+# Rev 0 Circle Area Start 03/29/2022
+## Bryan Hodgins EG0547 Start Here
+# No client information provided
